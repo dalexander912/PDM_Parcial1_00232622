@@ -13,7 +13,7 @@ enum class TipoProducto {
     BEBIDA
 }
 
-data class itemPedido(
-    val producto: Producto?,
-    val cantidad: Int?
+data class ItemOrden(
+    val producto: Producto,
+    val cantidad: Int
 )
